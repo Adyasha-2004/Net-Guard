@@ -1,0 +1,25 @@
+# NetGuard Git Ignore Configuration
+
+# Compiled Binaries
+bin/
+
+# Kernel Module Build Artifacts
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/*.mod.o
+kernel/.*.cmd
+kernel/modules.order
+kernel/Module.symvers
+
+# Temporary files
+/tmp/netguard_test_rules.csv
+/tmp/netguard_rules.json
+
+# System & Editor Files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
